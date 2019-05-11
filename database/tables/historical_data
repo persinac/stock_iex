@@ -1,0 +1,34 @@
+-- Table: public.stock_symbols
+
+-- DROP TABLE public.stock_symbols;
+
+CREATE TABLE public.historical_data
+(
+    id integer NOT NULL DEFAULT nextval('historical_data_id_sq'::regclass),
+    symbolid integer,
+    opendate integer,
+    opener double precision,
+    closer double precision,
+    high double precision,
+    low double precision,
+    volume bigint,
+    uopener double precision,
+    ucloser double precision,
+    uhigh double precision,
+    ulow double precision,
+    uvolume bigint,
+    change double precision,
+    changepercent double precision,
+    label character varying(255),
+    createdon integer,
+    CONSTRAINT "PK_historicalDataID" PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.historical_data
+    OWNER to postgres;
+
+GRANT ALL ON TABLE public."historical_data" TO postgres;

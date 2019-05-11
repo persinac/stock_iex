@@ -1,0 +1,11 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This is a test message
+DEBUG:root:C:\Users\apfba\PycharmProjects\stock_stuff
+DEBUG:root:This is a test message
+DEBUG:root:C:\Users\apfba\PycharmProjects\stock_stuff
+DEBUG:root:This is a test message
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cloud.iexapis.com:443
+DEBUG:urllib3.connectionpool:https://cloud.iexapis.com:443 "GET /stable/stock/fsi/quote?token=sk_9b0735e223214cffaf4def0848c833b7 HTTP/1.1" 200 None
+DEBUG:root:{'symbol': 'FSI', 'companyName': 'Flexible Solutions International, Inc.', 'calculationPrice': 'close', 'open': 2.95, 'openTime': 1556717400030, 'close': 2.94, 'closeTime': 1556740800091, 'high': 2.95, 'low': 2.84, 'latestPrice': 2.94, 'latestSource': 'Close', 'latestTime': 'May 1, 2019', 'latestUpdate': 1556740800091, 'latestVolume': 80544, 'iexRealtimePrice': 0, 'iexRealtimeSize': 0, 'iexLastUpdated': 0, 'delayedPrice': 2.95, 'delayedPriceTime': 1556741400008, 'extendedPrice': 2.98, 'extendedChange': 0.04, 'extendedChangePercent': 0.01361, 'extendedPriceTime': 1556749800007, 'previousClose': 2.95, 'change': -0.01, 'changePercent': -0.00339, 'iexMarketPercent': None, 'iexVolume': 0, 'avgTotalVolume': 118887, 'iexBidPrice': 0, 'iexBidSize': 0, 'iexAskPrice': 0, 'iexAskSize': 0, 'marketCap': 34433280, 'peRatio': 13.99, 'week52High': 2.98, 'week52Low': 1.23, 'ytdChange': 1.181795}
